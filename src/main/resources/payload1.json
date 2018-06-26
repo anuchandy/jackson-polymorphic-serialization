@@ -1,0 +1,34 @@
+[
+  {
+    "topic": "/subscriptions/1a95ce9a-1acd-45a9-bc7d-f79a11792d43/resourceGroups/mediaresources/providers/Microsoft.Media/mediaservices/quintinbmedia73",
+    "subject": "transforms/VideoAnalyzerTransform/jobs/qb-job-48e0c4ed-849f-43a3-a7eb-5dc24896d54a",
+    "eventType": "Microsoft.Media.JobCompleted",
+    "eventTime": "2018-03-29T14",
+    "id": "8688f6c9-ff35-4629-9b09-8633f2da76c0",
+    "data": {
+      "state": "Finished",
+      "correlationData": {
+        "name1": "value1",
+        "name2": "value2"
+      },
+      "outputs": [
+        {
+          "@odata.type": "#Microsoft.Media.JobOutputAsset",
+          "error": null,
+          "state": "Finished",
+          "progress": 100,
+          "assetName": "Example-Output-Asset-Name"
+        },
+        {
+          "@odata.type": "#Microsoft.Media.JobOutputHttp",
+          "error": null,
+          "state": "Finished",
+          "progress": 100,
+          "url": "https: //microsoft.com/example-file.mp4"
+        }
+      ]
+    },
+    "dataVersion": "1.0",
+    "metadataVersion": "1"
+  }
+]
